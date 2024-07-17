@@ -1,0 +1,41 @@
+.container {
+  width: 850px;
+  background-color: hsl(0, 0%, 100%);
+  margin: 60px auto;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.calculator {
+  width: 900px;
+  padding: 35px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav h1 {
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(202, 55%, 16%);
+}
+.nav p {
+  font-size: 14px;
+  font-weight: 300;
+  color: hsl(200, 26%, 54%);
+  border-bottom: 0.5px solid hsl(200, 26%, 54%);
+}
+.amount {
+  margin-top: 30px;
+}
+.amount label {
+  font-size: 12px;
+  color: hsl(200, 26%, 54%);
+}
+.input-amount {
+  width: 100%;
+  height: 35px;
+  border: 1px solid hsl(200, 26%, 54%);
+  border-radius: 5px;
+}
