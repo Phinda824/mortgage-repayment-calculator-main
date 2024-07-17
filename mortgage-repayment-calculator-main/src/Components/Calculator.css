@@ -5,9 +5,10 @@
   border-radius: 30px;
   display: flex;
   justify-content: space-between;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .calculator {
-  width: 900px;
+  width: 720px;
   padding: 35px;
 }
 .nav {
@@ -26,6 +27,7 @@
   color: hsl(200, 26%, 54%);
   border-bottom: 0.5px solid hsl(200, 26%, 54%);
 }
+
 .amount {
   margin-top: 30px;
 }
@@ -35,7 +37,137 @@
 }
 .input-amount {
   width: 100%;
-  height: 35px;
-  border: 1px solid hsl(200, 26%, 54%);
+  height: 45px;
+  border: 1px solid hsl(203, 41%, 72%);
   border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 8px;
+}
+.input-amount p {
+  height: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  color: hsl(200, 24%, 40%);
+  background-color: hsl(202, 86%, 94%);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px 0 0 5px;
+}
+.input-amount input {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: hsl(202, 55%, 16%);
+  padding: 0 10px;
+}
+
+.inputs-calc {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 15px;
+}
+.card-sect label {
+  font-size: 12px;
+  color: hsl(200, 26%, 54%);
+}
+.input-term {
+  height: 45px;
+  border: 1px solid hsl(203, 41%, 72%);
+  border-radius: 5px;
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input-term input {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: hsl(202, 55%, 16%);
+  padding: 0 10px;
+}
+.input-term p {
+  height: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  color: hsl(200, 24%, 40%);
+  background-color: hsl(202, 86%, 94%);
+  padding: 10px;
+  border-radius: 0 5px 5px 0;
+}
+.pay-type {
+  margin-top: 15px;
+}
+.pay-type label {
+  font-size: 12px;
+  color: hsl(200, 26%, 54%);
+}
+.payment {
+  width: 100%;
+  height: 45px;
+  border: 1px solid hsl(203, 41%, 72%);
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 8px;
+}
+.dot {
+  width: 20px;
+  height: 20px;
+  border: 2px solid hsl(200, 26%, 54%);
+  border-radius: 10px;
+  margin: 10px;
+}
+.payment .text {
+  font-size: 16px;
+  font-weight: 500;
+  color: hsl(202, 55%, 16%);
+}
+.calculate-repayments {
+  height: 45px;
+  background-color: hsl(61, 70%, 52%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 0 20px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.calculate-repayments p {
+  font-size: 16px;
+  font-weight: 500;
+  color: hsl(202, 55%, 16%);
+}
+
+.results {
+  background-color: hsl(202, 55%, 16%);
+  padding: 35px;
+  border-radius: 0 30px 30px 70px;
+}
+.results h1 {
+  font-size: 18px;
+  font-weight: 500;
+  color: hsl(0, 0%, 100%);
+}
+.results p {
+  font-size: 10px;
+  color: hsl(202, 86%, 94%);
+  line-height: 26px;
 }

@@ -26,25 +26,27 @@ const Calculator = () => {
             </div>
           </div>
           <div className="card-sect">
-            <label htmlFor="">Mortgage Amount</label>
+            <label htmlFor="">Interest Rate</label>
             <div className="input-term">
               <input type="text" />
-              <p>years</p>
+              <p>%</p>
             </div>
           </div>
         </div>
-        <label htmlFor="">Mortgage Amount</label>
-        <div className="payment">
-          <div className="dot"></div>
-          <div className="text">Repayment</div>
+        <div className="pay-type">
+          <label htmlFor="">Mortgage Type</label>
+          <div className="payment">
+            <div className="dot"></div>
+            <div className="text">Repayment</div>
+          </div>
+          <div className="payment">
+            <div className="dot"></div>
+            <div className="text">Interest Only</div>
+          </div>
+          <button className="calculate-repayments">
+            <img src={calculator} alt="" /> <p>Calculate Repayments</p>
+          </button>
         </div>
-        <div className="interest">
-          <div className="dot"></div>
-          <div className="text">Interest Only</div>
-        </div>
-        <button className="calculate-repayments">
-          <img src={calculator} alt="" /> <p>Calculate Repayments</p>
-        </button>
       </div>
       <div className="results">
         <h1>Your results</h1>
